@@ -2,10 +2,6 @@ hostings:
 - name: BuyVM
   url: "https://buyvm.net"
   description: "Privacy friendly provider"
-<<<<<<< HEAD
-  asn: 53667
-  ddos_protection: false
-=======
   logo: "https://buyvm.net/assets/img/header_logo.png"
   privacy_policy: "https://buyvm.net/privacy-policy/"
   terms_of_service: "https://buyvm.net/terms-of-service/"
@@ -19,4 +15,3 @@ hostings:
   types: ["VPS", "VDS"]
   cryptos: ["BTC", "ETH", "LTC", "XMR", "Altcoins"]
   other_payment_methods: ["PayPal", "Credit Card", "Alipay"]
->>>>>>> c32ef88 (Add BuyVM hosting)
