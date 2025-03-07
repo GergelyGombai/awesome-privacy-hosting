@@ -7,6 +7,9 @@ on:
       - "hostings.schema.json"
     branches:
       - master
+      
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -48,7 +51,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       
       - name: Commit and Push Changes
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           persist-credentials: true
           fetch-depth: 0
