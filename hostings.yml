@@ -40,3 +40,32 @@ hostings:
   other_payment_methods:
     - "PayPal"
     - "Credit Card"
+
+- name: "FlokiNet"
+  url: "https://flokinet.is/"
+  description: "FlokiNET was established in 2012 in Iceland to provide a safe harbor for freedom of speech, free press, and whistleblower projects. FlokiNET provides secure, stable, and anonymous web hosting services."
+  logo: "https://flokinet.is/images/floki_logo.svg"
+  privacy_policy: "https://flokinet.is/privacy"
+  terms_of_service: "https://flokinet.is/terms-of-service/"
+  looking_glass: "https://looking.house/companies/flokinet-is/looking-glass"
+  asn: 200651
+  dmca_ignored: false
+  kyc_required: false
+  ddos_protection: true
+  max_ddos_capacity_tbps: 1
+  types:
+    - "Shared"
+    - "VPS"
+    - "Dedicated"
+    - "Colocation"
+  cryptos:
+    - "BTC"
+    - "ETH"
+    - "XMR"
+    - "LTC"
+    - "Altcoins"
+  other_payment_methods:
+    - "PayPal"
+    - "Credit Card"
+    - "Bank Transfer"
+    - "PaySafeCard"
