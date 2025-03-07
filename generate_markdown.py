@@ -3,14 +3,14 @@ import yaml
 # YAML file containing hosting data
 yaml_file = "hostings.yml"
 
-# Mapping of cryptocurrencies to Shields.io badge colors
+# Mapping of cryptocurrencies to Shields.io badge colors and logo names
 crypto_badges = {
-    "BTC": "orange",
-    "ETH": "blue",
-    "XMR": "darkorange",
-    "LTC": "gray",
-    "USDT": "green",
-    "altcoins": "purple",  # Special case for generic altcoins
+    "BTC": {"color": "orange", "logo": "bitcoin"},
+    "ETH": {"color": "blue", "logo": "ethereum"},
+    "XMR": {"color": "darkorange", "logo": "monero"},
+    "LTC": {"color": "gray", "logo": "litecoin"},
+    "USDT": {"color": "green", "logo": "tether"},
+    "altcoins": {"color": "purple", "logo": None},  # Special case for generic altcoins
 }
 
 # Load YAML data
@@ -44,7 +44,7 @@ for host in data["hostings"]:
 
     # Generate crypto badges
     crypto_icons = " ".join(
-        [f"![{crypto}](https://img.shields.io/badge/{crypto}-{crypto_badges.get(crypto, 'gray')}?style=flat{'&logo=' + crypto.lower() + '&logoColor=white' if crypto.lower() != 'altcoins' else ''})"
+        [f"![{crypto}](https://img.shields.io/badge/{crypto}-{crypto_badges.get(crypto, {'color': 'gray'})['color']}?style=flat{('&logo=' + crypto_badges[crypto]['logo'] + '&logoColor=white') if crypto in crypto_badges and crypto_badges[crypto]['logo'] else ''})"
          for crypto in cryptos]
     )
 
