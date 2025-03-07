@@ -1,5 +1,4 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Hostings Schema",
     "description": "Schema for validating the hostings.yaml file",
     "type": "object",
