@@ -1,0 +1,5 @@
+hostings:
+- name: BuyVM
+  url: "https://buyvm.net"
+  description: "Privacy friendly provider"
+  asn: 53667

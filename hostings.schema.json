@@ -1,0 +1,102 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Hostings Schema",
+    "description": "Schema for validating the hostings.yaml file",
+    "type": "object",
+    "properties": {
+      "hostings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "The name of the hosting provider"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri",
+              "description": "The website URL of the hosting provider"
+            },
+            "description": {
+              "type": "string",
+              "description": "A brief description of the hosting provider"
+            },
+            "logo": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL of the provider's logo"
+            },
+            "privacy_policy": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL to the provider's privacy policy"
+            },
+            "terms_of_service": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL to the provider's terms of service"
+            },
+            "lowendtalk_profile": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL to the provider's LowEndTalk profile"
+            },
+            "asn": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Autonomous System Number (ASN) of the provider"
+            },
+            "looking_glass": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL to the provider's Looking Glass tool (if available)"
+            },
+            "dmca_ignored": {
+              "type": "boolean",
+              "description": "Indicates if the provider ignores DMCA takedowns"
+            },
+            "ddos_protection": {
+              "type": "boolean",
+              "description": "Indicates if the provider offers DDoS protection"
+            },
+            "stateful_protection": {
+              "type": "boolean",
+              "description": "Indicates if DDoS protection is stateful"
+            },
+            "max_ddos_capacity_tbps": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Maximum DDoS protection capacity in Tbps (if known)"
+            },
+            "kyc_required": {
+              "type": "boolean",
+              "description": "Indicates if KYC is required"
+            },
+            "types": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["VPS", "VDS", "Dedicated", "Colocation"],
+                "description": "Hosting types offered by the provider"
+              },
+              "description": "List of hosting types offered"
+            },
+            "cryptos": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["BTC", "ETH", "XMR", "LTC", "USDT"],
+                "description": "Cryptocurrencies accepted by the hosting provider"
+              },
+              "description": "List of accepted cryptocurrencies"
+            }
+          },
+          "required": ["name", "url", "description", "asn"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["hostings"]
+  }
+  
