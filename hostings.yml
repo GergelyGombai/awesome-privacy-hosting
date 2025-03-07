@@ -3,4 +3,4 @@ hostings:
   url: "https://buyvm.net"
   description: "Privacy friendly provider"
   asn: 53667
-  ddos_protection: true
+  ddos_protection: false
