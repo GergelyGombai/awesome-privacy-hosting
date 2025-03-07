@@ -42,10 +42,19 @@ jobs:
       - name: Generate README.md
         run: python generate_markdown.py
 
-      - name: Commit and Push Changes
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Commit and Push Changes
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      
+      - name: Push Changes
+        run: |
           git add README.md
           git commit -m "Auto-update README with latest hosting data" || echo "No changes to commit"
           git push
