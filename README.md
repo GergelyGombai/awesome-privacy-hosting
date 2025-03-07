@@ -31,6 +31,33 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![AliPay](https://img.shields.io/badge/AliPay-blue?style=flat&logo=alipay&logoColor=white)
 
+## [FlokiNet](https://flokinet.is/)
+![FlokiNet Logo](https://flokinet.is/images/floki_logo.svg)
+
+**Description:** FlokiNET was established in 2012 in Iceland to provide a safe harbor for freedom of speech, free press, and whistleblower projects. FlokiNET provides secure, stable, and anonymous web hosting services.
+
+**Hosting Types:** Shared, VPS, Dedicated, Colocation
+
+**ASN:** [AS200651](https://bgp.tools/as/200651)
+
+**Looking Glass:** [https://looking.house/companies/flokinet-is/looking-glass](https://looking.house/companies/flokinet-is/looking-glass)
+
+**DMCA Ignored:** ❌ No
+
+**DDoS Protection:** ✅ Yes
+
+**Stateful DDoS Protection:** ❌ No
+
+**Max DDoS Capacity:** 1 Tbps
+
+**KYC Required:** ❌ No
+
+**Privacy Policy:** [https://flokinet.is/privacy](https://flokinet.is/privacy)
+
+**Terms of Service:** [https://flokinet.is/terms-of-service/](https://flokinet.is/terms-of-service/)
+
+**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![Bank Transfer](https://img.shields.io/badge/Bank%20Transfer-purple?style=flat&logo=bankofamerica&logoColor=white) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
+
 ## [PrivateLayer](https://privatelayer.com/)
 ![PrivateLayer Logo](./logos/privatelayer.png)
 
