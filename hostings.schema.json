@@ -94,7 +94,7 @@
               "type": "array",
               "items": {
                 "type": "string",
-                "enum": ["PayPal", "Credit Card", "AliPay"],
+                "enum": ["PayPal", "Credit Card", "AliPay", "Bank Transfer", "PaySafeCard"],
                 "description": "Other payment methods accepted by the hosting provider"
               },
               "description": "List of other accepted payment methods"
