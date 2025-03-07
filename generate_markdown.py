@@ -24,6 +24,9 @@ payment_badges = {
 with open(yaml_file, "r") as file:
     data = yaml.safe_load(file)
 
+# Sort hostings alphabetically by name
+data["hostings"] = sorted(data["hostings"], key=lambda x: x["name"].lower())
+
 # Generate Markdown
 markdown = """# Awesome Hostings
 

@@ -5,6 +5,7 @@ on:
     paths:
       - "hostings.yml"
       - "hostings.schema.json"
+      - "generate_markdown.py"
     branches:
       - master
 
