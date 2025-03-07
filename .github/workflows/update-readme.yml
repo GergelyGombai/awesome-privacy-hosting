@@ -30,7 +30,7 @@ jobs:
           import json, yaml, sys
           from jsonschema import validate, ValidationError
           try:
-              with open('hostings.yaml') as yml_file, open('hostings.schema.json') as schema_file:
+              with open('hostings.yml') as yml_file, open('hostings.schema.json') as schema_file:
                   y=yaml.safe_load(yml_file)
                   s=json.load(schema_file)
                   validate(y, s)
