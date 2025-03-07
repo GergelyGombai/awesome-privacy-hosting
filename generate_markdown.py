@@ -16,8 +16,9 @@ crypto_badges = {
 payment_badges = {
     "PayPal": {"color": "blue", "logo": "paypal"},
     "Credit Card": {"color": "green", "logo": None},  # Special case for credit card - no logo
-    "Bank Transfer": {"color": "purple", "logo": "bank"},
+    "Bank Transfer": {"color": "purple", "logo": "bankofamerica"},
     "AliPay": {"color": "blue", "logo": "alipay"},
+    "PaySafeCard": {"color": "blue", "logo": None}
 }
 
 # Load YAML data
