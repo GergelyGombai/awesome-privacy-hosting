@@ -27,7 +27,7 @@ with open(yaml_file, "r") as file:
 # Generate Markdown
 markdown = """# Awesome Hostings
 
-A curated list of hosting providers that offer DDoS protection, no KYC, and DMCA-ignored services.
+A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-ignored services.
 
 """
 
