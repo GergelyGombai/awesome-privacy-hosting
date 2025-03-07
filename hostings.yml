@@ -2,5 +2,21 @@ hostings:
 - name: BuyVM
   url: "https://buyvm.net"
   description: "Privacy friendly provider"
+<<<<<<< HEAD
   asn: 53667
   ddos_protection: false
+=======
+  logo: "https://buyvm.net/assets/img/header_logo.png"
+  privacy_policy: "https://buyvm.net/privacy-policy/"
+  terms_of_service: "https://buyvm.net/terms-of-service/"
+  lowendtalk_profile: "https://lowendtalk.com/profile/Francisco"
+  asn: 53667
+  looking_glass: "https://speedtest.lu.buyvm.net/"
+  dmca_ignored: true
+  ddos_protection: true
+  max_ddos_capacity_tbps: 3.5
+  kyc_required: false
+  types: ["VPS", "VDS"]
+  cryptos: ["BTC", "ETH", "LTC", "XMR", "Altcoins"]
+  other_payment_methods: ["PayPal", "Credit Card", "Alipay"]
+>>>>>>> c32ef88 (Add BuyVM hosting)
