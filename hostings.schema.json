@@ -86,7 +86,7 @@
               "type": "array",
               "items": {
                 "type": "string",
-                "enum": ["BTC", "ETH", "XMR", "LTC", "USDT"],
+                "enum": ["BTC", "ETH", "XMR", "LTC", "USDT", "altcoins"],
                 "description": "Cryptocurrencies accepted by the hosting provider"
               },
               "description": "List of accepted cryptocurrencies"
@@ -108,4 +108,3 @@
     },
     "required": ["hostings"]
   }
-  

@@ -10,6 +10,7 @@ crypto_badges = {
     "XMR": "darkorange",
     "LTC": "gray",
     "USDT": "green",
+    "altcoins": "purple",  # Special case for generic altcoins
 }
 
 # Load YAML data
@@ -43,7 +44,7 @@ for host in data["hostings"]:
 
     # Generate crypto badges
     crypto_icons = " ".join(
-        [f"![{crypto}](https://img.shields.io/badge/{crypto}-{crypto_badges.get(crypto, 'gray')}?style=flat&logo={crypto.lower()}&logoColor=white)"
+        [f"![{crypto}](https://img.shields.io/badge/{crypto}-{crypto_badges.get(crypto, 'gray')}?style=flat{'&logo=' + crypto.lower() + '&logoColor=white' if crypto.lower() != 'altcoins' else ''})"
          for crypto in cryptos]
     )
 

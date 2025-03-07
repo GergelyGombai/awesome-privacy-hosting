@@ -13,5 +13,5 @@ hostings:
   max_ddos_capacity_tbps: 3.5
   kyc_required: false
   types: ["VPS", "VDS"]
-  cryptos: ["BTC", "ETH", "LTC", "XMR", "Altcoins"]
+  cryptos: ["BTC", "ETH", "LTC", "XMR", "altcoins"]
   other_payment_methods: ["PayPal", "Credit Card", "Alipay"]
