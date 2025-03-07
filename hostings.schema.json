@@ -85,7 +85,7 @@
               "type": "array",
               "items": {
                 "type": "string",
-                "enum": ["BTC", "ETH", "XMR", "LTC", "USDT", "altcoins"],
+                "enum": ["BTC", "ETH", "XMR", "LTC", "USDT", "Altcoins"],
                 "description": "Cryptocurrencies accepted by the hosting provider"
               },
               "description": "List of accepted cryptocurrencies"
@@ -94,7 +94,7 @@
               "type": "array",
               "items": {
                 "type": "string",
-                "enum": ["PayPal", "Credit Card", "Alipay"],
+                "enum": ["PayPal", "Credit Card", "AliPay"],
                 "description": "Other payment methods accepted by the hosting provider"
               },
               "description": "List of other accepted payment methods"
