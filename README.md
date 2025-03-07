@@ -1,6 +1,6 @@
 # Awesome Hostings
 
-A curated list of hosting providers that offer DDoS protection, no KYC, and DMCA-ignored services.
+A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-ignored services.
 
 ## [BuyVM](https://buyvm.net)
 ![BuyVM Logo](https://buyvm.net/assets/img/header_logo.png)
@@ -29,5 +29,5 @@ A curated list of hosting providers that offer DDoS protection, no KYC, and DMCA
 
 **LowEndTalk Profile:** [https://lowendtalk.com/profile/Francisco](https://lowendtalk.com/profile/Francisco)
 
-**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=btc&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=eth&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=ltc&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=xmr&logoColor=white) ![altcoins](https://img.shields.io/badge/altcoins-purple?style=flat)
+**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![altcoins](https://img.shields.io/badge/altcoins-purple?style=flat) ['PayPal', 'Credit Card', 'Alipay']
 
