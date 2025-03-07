@@ -15,7 +15,7 @@ crypto_badges = {
 
 payment_badges = {
     "PayPal": {"color": "blue", "logo": "paypal"},
-    "Credit Card": {"color": "green", "logo": "visa"},
+    "Credit Card": {"color": "green", "logo": None},  # Special case for credit card - no logo
     "Bank Transfer": {"color": "purple", "logo": "bank"},
     "AliPay": {"color": "blue", "logo": "alipay"},
 }
