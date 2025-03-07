@@ -7,7 +7,7 @@ on:
       - "hostings.schema.json"
     branches:
       - master
-      
+
 permissions:
   contents: write
 
@@ -17,10 +17,12 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # Ensures we can push later
 
       - name: Set up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
@@ -34,12 +36,13 @@ jobs:
           from jsonschema import validate, ValidationError
           try:
               with open('hostings.yml') as yml_file, open('hostings.schema.json') as schema_file:
-                  y=yaml.safe_load(yml_file)
-                  s=json.load(schema_file)
-                  validate(y, s)
+                  y = yaml.safe_load(yml_file)
+                  s = json.load(schema_file)
+                  validate(instance=y, schema=s)
                   print('✅ YAML is valid!')
           except ValidationError as e:
-              sys.exit(f'❌ Validation error: {e.message}')
+              print(f'❌ Validation error: {e.message}')
+              sys.exit(1)
           "
 
       - name: Generate README.md
@@ -49,15 +52,13 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      
+
       - name: Commit and Push Changes
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
-      
-      - name: Push Changes
         run: |
           git add README.md
-          git commit -m "Auto-update README with latest hosting data" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-update README with latest hosting data"
+            git push
+          fi
