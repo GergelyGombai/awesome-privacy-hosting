@@ -6,7 +6,7 @@ on:
       - "hostings.yaml"
       - "hostings.schema.json"
     branches:
-      - main
+      - master
 
 jobs:
   update-readme:
