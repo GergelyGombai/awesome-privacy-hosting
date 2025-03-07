@@ -29,5 +29,5 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **LowEndTalk Profile:** [https://lowendtalk.com/profile/Francisco](https://lowendtalk.com/profile/Francisco)
 
-**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![altcoins](https://img.shields.io/badge/altcoins-purple?style=flat) ['PayPal', 'Credit Card', 'Alipay']
+**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ['PayPal', 'Credit Card', 'AliPay']
 
