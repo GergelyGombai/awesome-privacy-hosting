@@ -15,13 +15,14 @@ hostings:
   types: ["VPS", "VDS"]
   cryptos: ["BTC", "ETH", "LTC", "XMR", "Altcoins"]
   other_payment_methods: ["PayPal", "Credit Card", "AliPay"]
-  
+
 - name: "PrivateLayer"
   url: "https://privatelayer.com/"
   description: "PrivateLayer is a privacy-focused offshore hosting provider based in Switzerland, offering dedicated servers, VPS, and colocation services with strong data protection policies."
   logo: "https://privatelayer.com/assets/img/logo/logo.png"
   privacy_policy: "https://privatelayer.com/privacypolicy.php"
   terms_of_service: "https://privatelayer.com/terms.php"
+  looking_glass: "https://privatelayer.com/tools.php"
   asn: 51852
   dmca_ignored: true
   kyc_required: false
