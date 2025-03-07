@@ -13,6 +13,13 @@ crypto_badges = {
     "altcoins": {"color": "purple", "logo": None},  # Special case for generic altcoins
 }
 
+payment_badges = {
+    "PayPal": {"color": "blue", "logo": "paypal"},
+    "Credit Card": {"color": "green", "logo": "visa"},
+    "Bank Transfer": {"color": "purple", "logo": "bank"},
+    "AliPay": {"color": "blue", "logo": "alipay"},
+}
+
 # Load YAML data
 with open(yaml_file, "r") as file:
     data = yaml.safe_load(file)
@@ -41,11 +48,18 @@ for host in data["hostings"]:
     kyc_required = host.get("kyc_required", False)
     hosting_types = ", ".join(host.get("types", []))
     cryptos = host.get("cryptos", [])
+    other_payment_methods = host.get("other_payment_methods", [])
 
     # Generate crypto badges
     crypto_icons = " ".join(
         [f"![{crypto}](https://img.shields.io/badge/{crypto}-{crypto_badges.get(crypto, {'color': 'gray'})['color']}?style=flat{('&logo=' + crypto_badges[crypto]['logo'] + '&logoColor=white') if crypto in crypto_badges and crypto_badges[crypto]['logo'] else ''})"
          for crypto in cryptos]
+    )
+
+    # Generate other payment methods badges
+    other_payment_methods_icons = " ".join(
+        [f"![{payment_method}](https://img.shields.io/badge/{payment_method}-{payment_badges.get(payment_method, {'color': 'gray'})['color']}?style=flat{('&logo=' + payment_badges[payment_method]['logo'] + '&logoColor=white') if payment_method in payment_badges and payment_badges[payment_method]['logo'] else ''})"
+         for payment_method in other_payment_methods]
     )
 
     markdown += f"## [{name}]({url})\n"
@@ -63,7 +77,7 @@ for host in data["hostings"]:
     markdown += f"**Privacy Policy:** [{privacy_policy}]({privacy_policy})\n\n" if privacy_policy else ""
     markdown += f"**Terms of Service:** [{terms_of_service}]({terms_of_service})\n\n" if terms_of_service else ""
     markdown += f"**LowEndTalk Profile:** [{lowendtalk_profile}]({lowendtalk_profile})\n\n" if lowendtalk_profile else ""
-    markdown += f"**Accepts:** {crypto_icons}\n\n"
+    markdown += f"**Accepts:** {crypto_icons} {other_payment_methods}\n\n"
 
 # Save to README.md
 with open("README.md", "w") as md_file:
