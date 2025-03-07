@@ -40,6 +40,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **ASN:** [AS51852](https://bgp.tools/as/51852)
 
+**Looking Glass:** [https://privatelayer.com/tools.php](https://privatelayer.com/tools.php)
+
 **DMCA Ignored:** ✅ Yes
 
 **DDoS Protection:** ❌ No
