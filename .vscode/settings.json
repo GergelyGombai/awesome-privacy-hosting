@@ -1,7 +1,7 @@
 {
     "yaml.schemas": {
       "./hostings.schema.json": [
-        "hostings.yaml"
+        "hostings.yml"
       ],
       "file:///workspaces/awesome-privacy-hosting/hostings.schema.json": "file:///workspaces/awesome-privacy-hosting/hostings.yml"
     }

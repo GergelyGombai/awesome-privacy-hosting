@@ -1,7 +1,7 @@
 import yaml
 
 # YAML file containing hosting data
-yaml_file = "hostings.yaml"
+yaml_file = "hostings.yml"
 
 # Mapping of cryptocurrencies to Shields.io badge colors
 crypto_badges = {
