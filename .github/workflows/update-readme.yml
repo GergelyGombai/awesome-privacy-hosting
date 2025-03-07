@@ -3,7 +3,7 @@ name: Update README
 on:
   push:
     paths:
-      - "hostings.yaml"
+      - "hostings.yml"
       - "hostings.schema.json"
     branches:
       - master
