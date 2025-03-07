@@ -55,13 +55,13 @@ for host in data["hostings"]:
 
     # Generate crypto badges
     crypto_icons = " ".join(
-        [f"![{crypto}](https://img.shields.io/badge/{crypto}-{crypto_badges.get(crypto, {'color': 'gray'})['color']}?style=flat{('&logo=' + crypto_badges[crypto]['logo'] + '&logoColor=white') if crypto in crypto_badges and crypto_badges[crypto]['logo'] else ''})"
+        [f"![{crypto}](https://img.shields.io/badge/{crypto.replace(' ', '%20')}-{crypto_badges.get(crypto, {'color': 'gray'})['color']}?style=flat{('&logo=' + crypto_badges[crypto]['logo'] + '&logoColor=white') if crypto in crypto_badges and crypto_badges[crypto]['logo'] is not None else ''})"
          for crypto in cryptos]
     )
 
     # Generate other payment methods badges
     other_payment_methods_icons = " ".join(
-        [f"![{payment_method}](https://img.shields.io/badge/{payment_method}-{payment_badges.get(payment_method, {'color': 'gray'})['color']}?style=flat{('&logo=' + payment_badges[payment_method]['logo'] + '&logoColor=white') if payment_method in payment_badges and payment_badges[payment_method]['logo'] else ''})"
+        [f"![{payment_method}](https://img.shields.io/badge/{payment_method.replace(' ', '%20')}-{payment_badges.get(payment_method, {'color': 'gray'})['color']}?style=flat{('&logo=' + payment_badges[payment_method]['logo'] + '&logoColor=white') if payment_method in payment_badges and payment_badges[payment_method]['logo'] is not None else ''})"
          for payment_method in other_payment_methods]
     )
 
