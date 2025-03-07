@@ -19,7 +19,7 @@ hostings:
 - name: "PrivateLayer"
   url: "https://privatelayer.com/"
   description: "PrivateLayer is a privacy-focused offshore hosting provider based in Switzerland, offering dedicated servers, VPS, and colocation services with strong data protection policies."
-  logo: "https://privatelayer.com/assets/img/logo/logo.png"
+  logo: "./logos/privatelayer.png"
   privacy_policy: "https://privatelayer.com/privacypolicy.php"
   terms_of_service: "https://privatelayer.com/terms.php"
   looking_glass: "https://privatelayer.com/tools.php"
