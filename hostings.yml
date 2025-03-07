@@ -14,4 +14,4 @@ hostings:
   kyc_required: false
   types: ["VPS", "VDS"]
   cryptos: ["BTC", "ETH", "LTC", "XMR", "altcoins"]
-  other_payment_methods: ["PayPal", "Credit Card", "Alipay"]
+  other_payment_methods: ["PayPal", "Credit Card", "AliPay"]
