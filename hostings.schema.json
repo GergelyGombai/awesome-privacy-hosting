@@ -76,7 +76,7 @@
               "type": "array",
               "items": {
                 "type": "string",
-                "enum": ["VPS", "VDS", "Dedicated", "Colocation"],
+                "enum": ["Shared", "VPS", "VDS", "Dedicated", "Colocation"],
                 "description": "Hosting types offered by the provider"
               },
               "description": "List of hosting types offered"
