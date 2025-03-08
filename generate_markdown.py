@@ -1,7 +1,7 @@
 import yaml
 
 # YAML file containing hosting data
-yaml_file = "hostings.yml"
+yaml_file = "providers.yml"
 
 # Mapping of cryptocurrencies to Shields.io badge colors and logo names
 crypto_badges = {
@@ -25,17 +25,17 @@ payment_badges = {
 with open(yaml_file, "r") as file:
     data = yaml.safe_load(file)
 
-# Sort hostings alphabetically by name
-data["hostings"] = sorted(data["hostings"], key=lambda x: x["name"].lower())
+# Sort providers alphabetically by name
+data["providers"] = sorted(data["providers"], key=lambda x: x["name"].lower())
 
 # Generate Markdown
-markdown = """# Awesome Hostings
+markdown = """# Awesome Hosting Providers
 
 A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-ignored services.
 
 """
 
-for host in data["hostings"]:
+for host in data["providers"]:
     name = host["name"]
     url = host["url"]
     description = host["description"]

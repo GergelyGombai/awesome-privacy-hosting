@@ -3,8 +3,8 @@ name: Update README
 on:
   push:
     paths:
-      - "hostings.yml"
-      - "hostings.schema.json"
+      - "providers.yml"
+      - "providers.schema.json"
       - "generate_markdown.py"
     branches:
       - master
@@ -36,7 +36,7 @@ jobs:
           import json, yaml, sys
           from jsonschema import validate, ValidationError
           try:
-              with open('hostings.yml') as yml_file, open('hostings.schema.json') as schema_file:
+              with open('providers.yml') as yml_file, open('providers.schema.json') as schema_file:
                   y = yaml.safe_load(yml_file)
                   s = json.load(schema_file)
                   validate(instance=y, schema=s)

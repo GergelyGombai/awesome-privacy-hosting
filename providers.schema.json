@@ -1,9 +1,9 @@
 {
-    "title": "Hostings Schema",
-    "description": "Schema for validating the hostings.yaml file",
+    "title": "Providers Schema",
+    "description": "Schema for validating the providers.yaml file",
     "type": "object",
     "properties": {
-      "hostings": {
+      "providers": {
         "type": "array",
         "items": {
           "type": "object",
@@ -105,5 +105,5 @@
         }
       }
     },
-    "required": ["hostings"]
+    "required": ["providers"]
   }

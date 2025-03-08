@@ -1,9 +1,9 @@
 {
     "yaml.schemas": {
-      "./hostings.schema.json": [
-        "hostings.yml"
+      "./providers.schema.json": [
+        "providers.yml"
       ],
-      "file:///workspaces/awesome-privacy-hosting/hostings.schema.json": "file:///workspaces/awesome-privacy-hosting/hostings.yml"
+      "file:///workspaces/awesome-privacy-hosting/providers.schema.json": "file:///workspaces/awesome-privacy-hosting/providers.yml"
     }
   }
   

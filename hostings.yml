@@ -1,4 +1,4 @@
-hostings:
+providers:
 - name: BuyVM
   url: "https://buyvm.net"
   description: "Privacy friendly provider"
