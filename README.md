@@ -9,7 +9,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** VPS
 
-**Regions:** No region information
+**Regions:** ![de](https://flagcdn.com/16x12/de.png) DE ![us](https://flagcdn.com/16x12/us.png) US ![ca](https://flagcdn.com/16x12/ca.png) CA ![sg](https://flagcdn.com/16x12/sg.png) SG
 
 **ASN:** [AS16276](https://bgp.tools/as/16276)
 
@@ -200,4 +200,33 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 **Terms of Service:** [https://royalehosting.net/legal/terms-of-service/](https://royalehosting.net/legal/terms-of-service/)
 
 ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![USDT](https://img.shields.io/badge/USDT-green?style=flat&logo=tether&logoColor=white) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![Bank Transfer](https://img.shields.io/badge/Bank%20Transfer-purple?style=flat&logo=bankofamerica&logoColor=white) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
+
+## [WorldStream](https://worldstream.com/)
+<img src="./logos/worldstream.png" alt="WorldStream Logo" width="400" />
+
+**Description:** WorldStream is a European IaaS hosting provider with a focus on DDoS protection, offering dedicated servers and colocation services.
+
+**Hosting Types:** Dedicated, Colocation
+
+**Regions:** ![nl](https://flagcdn.com/16x12/nl.png) NL ![de](https://flagcdn.com/16x12/de.png) DE
+
+**ASN:** [AS49981](https://bgp.tools/as/49981)
+
+**Looking Glass:** [https://lg.worldstream.com/](https://lg.worldstream.com/)
+
+**DMCA Ignored:** ❌ No
+
+**DDoS Protection:** ✅ Yes
+
+**Stateful DDoS Protection:** ❌ No
+
+**Max DDoS Capacity:** 0.1 Tbps
+
+**KYC Required:** ❌ No
+
+**Privacy Policy:** [https://www.worldstream.com/en/legal](https://www.worldstream.com/en/legal)
+
+**Terms of Service:** [https://www.worldstream.com/en/legal](https://www.worldstream.com/en/legal)
+
+ ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![AliPay](https://img.shields.io/badge/AliPay-blue?style=flat&logo=alipay&logoColor=white) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
 
