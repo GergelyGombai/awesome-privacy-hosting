@@ -107,6 +107,26 @@ providers:
     - "Credit Card"
     - "Bank Transfer"
     - "PaySafeCard"
+    
+- name: "ReliableSite"
+  url: "https://reliablesite.net/"
+  description: "Reliablesite.net LLC is a dedicated server provider offering services in Miami, New York City Metro, and Los Angeles."
+  logo: "https://www.reliablesite.net/static/img/minified-svg/logo.svg"
+  privacy_policy: "https://www.reliablesite.net/policies/privacy.aspx"
+  terms_of_service: "https://www.reliablesite.net/policies/tos.aspx"
+  looking_glass: "https://www.reliablesite.net/network/"
+  asn: 23470
+  dmca_ignored: false
+  kyc_required: true
+  types:
+    - "Dedicated"
+  cryptos:
+    - "BTC"
+  other_payment_methods:
+    - "PayPal"
+    - "Credit Card"
+    - "Bank Transfer"
+
 
 - name: "OVHCloud"
   url: "https://ovhcloud.com/"
