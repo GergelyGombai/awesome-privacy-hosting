@@ -12,9 +12,19 @@ providers:
   ddos_protection: true
   max_ddos_capacity_tbps: 3.5
   kyc_required: false
-  types: ["VPS", "VDS"]
-  cryptos: ["BTC", "ETH", "LTC", "XMR", "Altcoins"]
-  other_payment_methods: ["PayPal", "Credit Card", "AliPay"]
+  types:
+    - "VPS"
+    - "VDS"
+  cryptos:
+  - "BTC"
+  - "ETH"
+  - "LTC"
+  - "XMR"
+  - "Altcoins"
+  other_payment_methods:
+  - "PayPal"
+  - "Credit Card"
+  - "AliPay"
 
 - name: "PrivateLayer"
   url: "https://privatelayer.com/"
