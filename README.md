@@ -136,7 +136,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat)
 
 ## [ReliableSite](https://reliablesite.net/)
-<img src="./logos/reliablesite.png" alt="ReliableSite Logo" width="400" />
+<img src="./logos/reliablesite.jpg" alt="ReliableSite Logo" width="400" />
 
 **Description:** Reliablesite.net LLC is a dedicated server provider offering services in Miami, New York City Metro, and Los Angeles.
 
