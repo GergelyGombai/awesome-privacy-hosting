@@ -68,7 +68,7 @@ for host in data["providers"]:
 
     markdown += f"## [{name}]({url})\n"
     if logo:
-        markdown += f"<img src=\"{logo}\" alt=\"{name} Logo\" style=\"max-width:300px;\"/>\n\n"
+        markdown += f"<img src=\"{logo}\" alt=\"{name} Logo\" width=\"400\" />\n\n"
     markdown += f"**Description:** {description}\n\n"
     markdown += f"**Hosting Types:** {hosting_types}\n\n" if hosting_types else ""
     markdown += f"**ASN:** [AS{asn}](https://bgp.tools/as/{asn})\n\n"
