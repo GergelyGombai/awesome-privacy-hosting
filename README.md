@@ -92,6 +92,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **ASN:** [AS212477](https://bgp.tools/as/212477)
 
+**Looking Glass:** [https://bgp.tools/lg/212477](https://bgp.tools/lg/212477)
+
 **DMCA Ignored:** ❌ No
 
 **DDoS Protection:** ✅ Yes
