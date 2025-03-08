@@ -81,7 +81,7 @@ for host in data["hostings"]:
     markdown += f"**Privacy Policy:** [{privacy_policy}]({privacy_policy})\n\n" if privacy_policy else ""
     markdown += f"**Terms of Service:** [{terms_of_service}]({terms_of_service})\n\n" if terms_of_service else ""
     markdown += f"**LowEndTalk Profile:** [{lowendtalk_profile}]({lowendtalk_profile})\n\n" if lowendtalk_profile else ""
-    markdown += f"**Accepts:** {crypto_icons} {other_payment_methods_icons}\n\n"
+    markdown += f"{crypto_icons} {other_payment_methods_icons}\n\n"
 
 # Save to README.md
 with open("README.md", "w") as md_file:
