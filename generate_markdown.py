@@ -21,6 +21,12 @@ payment_badges = {
     "PaySafeCard": {"color": "blue", "logo": None}
 }
 
+# FlagCDN URL format
+def get_flag_image(country_code):
+    # Convert country code to lowercase as required by FlagCDN
+    country_code = country_code.lower()
+    return f"![{country_code}](https://flagcdn.com/16x12/{country_code}.png)"
+
 # Load YAML data
 with open(yaml_file, "r") as file:
     data = yaml.safe_load(file)
@@ -51,8 +57,14 @@ for host in data["providers"]:
     max_ddos_capacity = host.get("max_ddos_capacity_tbps", None)
     kyc_required = host.get("kyc_required", False)
     hosting_types = ", ".join(host.get("types", []))
+    regions = host.get("regions", [])
     cryptos = host.get("cryptos", [])
     other_payment_methods = host.get("other_payment_methods", [])
+
+    # Generate region flags using FlagCDN
+    region_flags = " ".join(
+        [f"{get_flag_image(region)} {region.upper()}" for region in regions]
+    ) if regions else "No region information"
 
     # Generate crypto badges
     crypto_icons = " ".join(
@@ -71,6 +83,7 @@ for host in data["providers"]:
         markdown += f"<img src=\"{logo}\" alt=\"{name} Logo\" width=\"400\" />\n\n"
     markdown += f"**Description:** {description}\n\n"
     markdown += f"**Hosting Types:** {hosting_types}\n\n" if hosting_types else ""
+    markdown += f"**Regions:** {region_flags}\n\n"
     markdown += f"**ASN:** [AS{asn}](https://bgp.tools/as/{asn})\n\n"
     markdown += f"**Looking Glass:** [{looking_glass}]({looking_glass})\n\n" if looking_glass else ""
     markdown += f"**DMCA Ignored:** {'✅ Yes' if dmca_ignored else '❌ No'}\n\n"

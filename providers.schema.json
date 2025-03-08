@@ -81,6 +81,14 @@
               },
               "description": "List of hosting types offered"
             },
+            "regions": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "description": "Country or region code where the provider has servers (ISO 3166-1 alpha-2)"
+              },
+              "description": "List of regions where the provider operates"
+            },
             "cryptos": {
               "type": "array",
               "items": {
