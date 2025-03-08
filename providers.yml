@@ -82,6 +82,7 @@ providers:
   ddos_protection: true
   max_ddos_capacity_tbps: 2.5
   stateful_protection: true
+  looking_glass: "https://bgp.tools/lg/212477"
   types:
     - "VPS"
     - "Dedicated"
