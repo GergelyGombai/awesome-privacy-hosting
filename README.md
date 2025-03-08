@@ -29,7 +29,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **LowEndTalk Profile:** [https://lowendtalk.com/profile/Francisco](https://lowendtalk.com/profile/Francisco)
 
-**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![AliPay](https://img.shields.io/badge/AliPay-blue?style=flat&logo=alipay&logoColor=white)
+![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![AliPay](https://img.shields.io/badge/AliPay-blue?style=flat&logo=alipay&logoColor=white)
 
 ## [FlokiNet](https://flokinet.is/)
 ![FlokiNet Logo](https://flokinet.is/images/floki_logo.svg)
@@ -56,7 +56,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Terms of Service:** [https://flokinet.is/terms-of-service/](https://flokinet.is/terms-of-service/)
 
-**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![Bank Transfer](https://img.shields.io/badge/Bank%20Transfer-purple?style=flat&logo=bankofamerica&logoColor=white) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
+![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![Bank Transfer](https://img.shields.io/badge/Bank%20Transfer-purple?style=flat&logo=bankofamerica&logoColor=white) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
 
 ## [PrivateLayer](https://privatelayer.com/)
 ![PrivateLayer Logo](./logos/privatelayer.png)
@@ -81,5 +81,5 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Terms of Service:** [https://privatelayer.com/terms.php](https://privatelayer.com/terms.php)
 
-**Accepts:** ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat)
+![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat)
 
