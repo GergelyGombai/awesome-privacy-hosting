@@ -25,6 +25,9 @@ providers:
     - "PayPal"
     - "Credit Card"
     - "AliPay"
+  regions:
+    - "US"
+    - "LU"
 
 - name: "PrivateLayer"
   url: "https://privatelayer.com/"
@@ -50,6 +53,8 @@ providers:
   other_payment_methods:
     - "PayPal"
     - "Credit Card"
+  regions:
+    - "CH"
 
 - name: "FlokiNet"
   url: "https://flokinet.is/"
@@ -129,7 +134,8 @@ providers:
     - "PayPal"
     - "Credit Card"
     - "Bank Transfer"
-
+  regions:
+    - "US"
 
 - name: "OVHCloud"
   url: "https://ovhcloud.com/"
@@ -149,6 +155,7 @@ providers:
   other_payment_methods:
     - "PayPal"
     - "Credit Card"
+
 
 - name: "100UP"
   url: "https://100up.org/"
