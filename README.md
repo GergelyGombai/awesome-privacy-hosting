@@ -1,4 +1,4 @@
-# Awesome Hostings
+# Awesome Hosting Providers
 
 A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-ignored services.
 
