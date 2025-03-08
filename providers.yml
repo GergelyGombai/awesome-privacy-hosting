@@ -126,6 +126,9 @@ providers:
     - "PayPal"
     - "Credit Card"
     - "Bank Transfer"
+  regions:
+    - "US"
+    - "NL"
 
 
 - name: "OVHCloud"
