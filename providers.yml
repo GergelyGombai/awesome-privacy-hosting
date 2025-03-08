@@ -111,7 +111,7 @@ providers:
 - name: "ReliableSite"
   url: "https://reliablesite.net/"
   description: "Reliablesite.net LLC is a dedicated server provider offering services in Miami, New York City Metro, and Los Angeles."
-  logo: "./logos/reliablesite.png"
+  logo: "./logos/reliablesite.jpg"
   privacy_policy: "https://www.reliablesite.net/policies/privacy.aspx"
   terms_of_service: "https://www.reliablesite.net/policies/tos.aspx"
   looking_glass: "https://www.reliablesite.net/network/"
