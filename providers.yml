@@ -69,3 +69,30 @@ providers:
     - "Credit Card"
     - "Bank Transfer"
     - "PaySafeCard"
+  
+- name: "RoyaleHosting"
+  url: "https://royalehosting.net/"
+  description: "RoyaleHosting is a privacy-focused hosting provider based in the Netherlands, VPS, dedicated servers and colocation with strong data protection policies."
+  logo: "https://royalehosting.net/_app/immutable/assets/logo-wide.DCtttkZp.svg"
+  privacy_policy: "https://royalehosting.net/legal/privacy-policy/"
+  terms_of_service: "https://royalehosting.net/legal/terms-of-service/"
+  asn: 212477
+  dmca_ignored: false
+  kyc_required: false
+  ddos_protection: true
+  max_ddos_capacity_tbps: 2.5
+  stateful_protection: true
+  types:
+    - "VPS"
+    - "Dedicated"
+    - "Colocation"
+  cryptos:
+    - "BTC"
+    - "ETH"
+    - "LTC"
+    - "USDT"
+  other_payment_methods:
+    - "PayPal"
+    - "Credit Card"
+    - "Bank Transfer"
+    - "PaySafeCard"
