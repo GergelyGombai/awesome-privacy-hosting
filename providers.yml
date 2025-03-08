@@ -107,7 +107,10 @@ providers:
     - "Credit Card"
     - "Bank Transfer"
     - "PaySafeCard"
-    
+  regions:
+    - "US"
+    - "NL"
+
 - name: "ReliableSite"
   url: "https://reliablesite.net/"
   description: "Reliablesite.net LLC is a dedicated server provider offering services in Miami, New York City Metro, and Los Angeles."
@@ -126,9 +129,6 @@ providers:
     - "PayPal"
     - "Credit Card"
     - "Bank Transfer"
-  regions:
-    - "US"
-    - "NL"
 
 
 - name: "OVHCloud"
