@@ -58,6 +58,33 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![Bank Transfer](https://img.shields.io/badge/Bank%20Transfer-purple?style=flat&logo=bankofamerica&logoColor=white) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
 
+## [OVHCloud](https://ovhcloud.com/)
+<img src="./logos/ovh.png" alt="OVHCloud Logo" width="400" />
+
+**Description:** OVHCloud is a global cloud provider that specializes in delivering industry-leading performance and cost-effective solutions to better manage, secure, and scale data.
+
+**Hosting Types:** VPS, Dedicated
+
+**ASN:** [AS16276](https://bgp.tools/as/16276)
+
+**Looking Glass:** [https://lg.ovh.net/](https://lg.ovh.net/)
+
+**DMCA Ignored:** ❌ No
+
+**DDoS Protection:** ✅ Yes
+
+**Stateful DDoS Protection:** ❌ No
+
+**Max DDoS Capacity:** 1.3 Tbps
+
+**KYC Required:** ✅ Yes
+
+**Privacy Policy:** [https://www.ovhcloud.com/en/terms-and-conditions/privacy-policy/](https://www.ovhcloud.com/en/terms-and-conditions/privacy-policy/)
+
+**Terms of Service:** [https://us.ovhcloud.com/legal/terms-of-service/](https://us.ovhcloud.com/legal/terms-of-service/)
+
+ ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat)
+
 ## [PrivateLayer](https://privatelayer.com/)
 <img src="./logos/privatelayer.png" alt="PrivateLayer Logo" width="400" />
 
