@@ -36,7 +36,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** VPS, VDS
 
-**Regions:** No region information
+**Regions:** ![us](https://flagcdn.com/16x12/us.png) US ![lu](https://flagcdn.com/16x12/lu.png) LU
 
 **ASN:** [AS53667](https://bgp.tools/as/53667)
 
@@ -125,7 +125,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** VPS, VDS, Dedicated, Colocation
 
-**Regions:** No region information
+**Regions:** ![ch](https://flagcdn.com/16x12/ch.png) CH
 
 **ASN:** [AS51852](https://bgp.tools/as/51852)
 
@@ -152,7 +152,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** Dedicated
 
-**Regions:** ![us](https://flagcdn.com/16x12/us.png) US ![nl](https://flagcdn.com/16x12/nl.png) NL
+**Regions:** ![us](https://flagcdn.com/16x12/us.png) US
 
 **ASN:** [AS23470](https://bgp.tools/as/23470)
 
@@ -179,7 +179,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** VPS, Dedicated, Colocation
 
-**Regions:** No region information
+**Regions:** ![us](https://flagcdn.com/16x12/us.png) US ![nl](https://flagcdn.com/16x12/nl.png) NL
 
 **ASN:** [AS212477](https://bgp.tools/as/212477)
 
