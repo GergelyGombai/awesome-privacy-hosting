@@ -16,15 +16,15 @@ providers:
     - "VPS"
     - "VDS"
   cryptos:
-  - "BTC"
-  - "ETH"
-  - "LTC"
-  - "XMR"
-  - "Altcoins"
+    - "BTC"
+    - "ETH"
+    - "LTC"
+    - "XMR"
+    - "Altcoins"
   other_payment_methods:
-  - "PayPal"
-  - "Credit Card"
-  - "AliPay"
+    - "PayPal"
+    - "Credit Card"
+    - "AliPay"
 
 - name: "PrivateLayer"
   url: "https://privatelayer.com/"
