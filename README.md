@@ -9,6 +9,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** VPS
 
+**Regions:** No region information
+
 **ASN:** [AS16276](https://bgp.tools/as/16276)
 
 **DMCA Ignored:** ❌ No
@@ -33,6 +35,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 **Description:** Privacy friendly provider
 
 **Hosting Types:** VPS, VDS
+
+**Regions:** No region information
 
 **ASN:** [AS53667](https://bgp.tools/as/53667)
 
@@ -63,6 +67,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** Shared, VPS, Dedicated, Colocation
 
+**Regions:** No region information
+
 **ASN:** [AS200651](https://bgp.tools/as/200651)
 
 **Looking Glass:** [https://looking.house/companies/flokinet-is/looking-glass](https://looking.house/companies/flokinet-is/looking-glass)
@@ -89,6 +95,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 **Description:** OVHCloud is a global cloud provider that specializes in delivering industry-leading performance and cost-effective solutions to better manage, secure, and scale data.
 
 **Hosting Types:** VPS, Dedicated
+
+**Regions:** No region information
 
 **ASN:** [AS16276](https://bgp.tools/as/16276)
 
@@ -117,6 +125,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** VPS, VDS, Dedicated, Colocation
 
+**Regions:** No region information
+
 **ASN:** [AS51852](https://bgp.tools/as/51852)
 
 **Looking Glass:** [https://privatelayer.com/tools.php](https://privatelayer.com/tools.php)
@@ -142,6 +152,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** Dedicated
 
+**Regions:** ![us](https://flagcdn.com/16x12/us.png) US ![nl](https://flagcdn.com/16x12/nl.png) NL
+
 **ASN:** [AS23470](https://bgp.tools/as/23470)
 
 **Looking Glass:** [https://www.reliablesite.net/network/](https://www.reliablesite.net/network/)
@@ -166,6 +178,8 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 **Description:** RoyaleHosting is a privacy-focused hosting provider based in the Netherlands, VPS, dedicated servers and colocation with strong data protection policies.
 
 **Hosting Types:** VPS, Dedicated, Colocation
+
+**Regions:** No region information
 
 **ASN:** [AS212477](https://bgp.tools/as/212477)
 
