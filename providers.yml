@@ -175,3 +175,32 @@ providers:
     - "PayPal"
     - "Credit Card"
     - "PaySafeCard"
+  regions:
+    - "DE"
+    - "US"
+    - "CA"
+    - "SG"
+
+- name: "WorldStream"
+  url: "https://worldstream.com/"
+  description: "WorldStream is a European IaaS hosting provider with a focus on DDoS protection, offering dedicated servers and colocation services."
+  logo: "./logos/worldstream.png"
+  privacy_policy: "https://www.worldstream.com/en/legal"
+  terms_of_service: "https://www.worldstream.com/en/legal"
+  looking_glass: "https://lg.worldstream.com/"
+  asn: 49981
+  dmca_ignored: false
+  kyc_required: false
+  ddos_protection: true
+  max_ddos_capacity_tbps: 0.1
+  types:
+    - "Dedicated"
+    - "Colocation"
+  other_payment_methods:
+    - "PayPal"
+    - "Credit Card"
+    - "AliPay"
+    - "PaySafeCard"
+  regions:
+    - "NL"
+    - "DE"
