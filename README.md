@@ -3,7 +3,7 @@
 A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-ignored services.
 
 ## [BuyVM](https://buyvm.net)
-![BuyVM Logo](https://buyvm.net/assets/img/header_logo.png)
+<img src="https://buyvm.net/assets/img/header_logo.png" alt="BuyVM Logo" style="max-width:300px;"/>
 
 **Description:** Privacy friendly provider
 
@@ -32,7 +32,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![AliPay](https://img.shields.io/badge/AliPay-blue?style=flat&logo=alipay&logoColor=white)
 
 ## [FlokiNet](https://flokinet.is/)
-![FlokiNet Logo](https://flokinet.is/images/floki_logo.svg)
+<img src="https://flokinet.is/images/floki_logo.svg" alt="FlokiNet Logo" style="max-width:300px;"/>
 
 **Description:** FlokiNET was established in 2012 in Iceland to provide a safe harbor for freedom of speech, free press, and whistleblower projects. FlokiNET provides secure, stable, and anonymous web hosting services.
 
@@ -59,7 +59,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![Bank Transfer](https://img.shields.io/badge/Bank%20Transfer-purple?style=flat&logo=bankofamerica&logoColor=white) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
 
 ## [PrivateLayer](https://privatelayer.com/)
-![PrivateLayer Logo](./logos/privatelayer.png)
+<img src="./logos/privatelayer.png" alt="PrivateLayer Logo" style="max-width:300px;"/>
 
 **Description:** PrivateLayer is a privacy-focused offshore hosting provider based in Switzerland, offering dedicated servers, VPS, and colocation services with strong data protection policies.
 
@@ -84,7 +84,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 ![BTC](https://img.shields.io/badge/BTC-orange?style=flat&logo=bitcoin&logoColor=white) ![ETH](https://img.shields.io/badge/ETH-blue?style=flat&logo=ethereum&logoColor=white) ![XMR](https://img.shields.io/badge/XMR-darkorange?style=flat&logo=monero&logoColor=white) ![LTC](https://img.shields.io/badge/LTC-gray?style=flat&logo=litecoin&logoColor=white) ![Altcoins](https://img.shields.io/badge/Altcoins-gray?style=flat) ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat)
 
 ## [RoyaleHosting](https://royalehosting.net/)
-![RoyaleHosting Logo](https://royalehosting.net/_app/immutable/assets/logo-wide.DCtttkZp.svg)
+<img src="https://royalehosting.net/_app/immutable/assets/logo-wide.DCtttkZp.svg" alt="RoyaleHosting Logo" style="max-width:300px;"/>
 
 **Description:** RoyaleHosting is a privacy-focused hosting provider based in the Netherlands, VPS, dedicated servers and colocation with strong data protection policies.
 
