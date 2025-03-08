@@ -126,3 +126,22 @@ providers:
   other_payment_methods:
     - "PayPal"
     - "Credit Card"
+
+- name: "100UP"
+  url: "https://100up.org/"
+  description: "100UP is an OVHCloud reseller DDoS protected hosting provider based in Germany that offers VPS with their own eBPF XDP DDoS protection on top of OVHCloud's mitigations."
+  logo: "./logos/100up.png"
+  privacy_policy: "https://100up.org/privacypolicy"
+  terms_of_service: "https://100up.org/tos"
+  asn: 16276
+  dmca_ignored: false
+  kyc_required: false
+  ddos_protection: true
+  max_ddos_capacity_tbps: 1.3
+  stateful_protection: true
+  types:
+    - "VPS"
+  other_payment_methods:
+    - "PayPal"
+    - "Credit Card"
+    - "PaySafeCard"
