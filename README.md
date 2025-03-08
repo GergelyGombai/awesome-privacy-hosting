@@ -2,6 +2,31 @@
 
 A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-ignored services.
 
+## [100UP](https://100up.org/)
+<img src="./logos/100up.png" alt="100UP Logo" width="400" />
+
+**Description:** 100UP is an OVHCloud reseller DDoS protected hosting provider based in Germany that offers VPS with their own eBPF XDP DDoS protection on top of OVHCloud's mitigations.
+
+**Hosting Types:** VPS
+
+**ASN:** [AS16276](https://bgp.tools/as/16276)
+
+**DMCA Ignored:** ❌ No
+
+**DDoS Protection:** ✅ Yes
+
+**Stateful DDoS Protection:** ✅ Yes
+
+**Max DDoS Capacity:** 1.3 Tbps
+
+**KYC Required:** ❌ No
+
+**Privacy Policy:** [https://100up.org/privacypolicy](https://100up.org/privacypolicy)
+
+**Terms of Service:** [https://100up.org/tos](https://100up.org/tos)
+
+ ![PayPal](https://img.shields.io/badge/PayPal-blue?style=flat&logo=paypal&logoColor=white) ![Credit Card](https://img.shields.io/badge/Credit%20Card-green?style=flat) ![PaySafeCard](https://img.shields.io/badge/PaySafeCard-blue?style=flat)
+
 ## [BuyVM](https://buyvm.net)
 <img src="https://buyvm.net/assets/img/header_logo.png" alt="BuyVM Logo" width="400" />
 
