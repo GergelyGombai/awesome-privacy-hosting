@@ -67,7 +67,7 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **Hosting Types:** Shared, VPS, Dedicated, Colocation
 
-**Regions:** No region information
+**Regions:** ![fi](https://flagcdn.com/16x12/fi.png) FI ![ro](https://flagcdn.com/16x12/ro.png) RO ![is](https://flagcdn.com/16x12/is.png) IS ![nl](https://flagcdn.com/16x12/nl.png) NL
 
 **ASN:** [AS200651](https://bgp.tools/as/200651)
 
