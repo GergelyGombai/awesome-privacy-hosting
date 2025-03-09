@@ -84,7 +84,12 @@ providers:
     - "Credit Card"
     - "Bank Transfer"
     - "PaySafeCard"
-  
+  regions:
+    - "FI"
+    - "RO"
+    - "IS"
+    - "NL"
+
 - name: "RoyaleHosting"
   url: "https://royalehosting.net/"
   description: "RoyaleHosting is a privacy-focused hosting provider based in the Netherlands, VPS, dedicated servers and colocation with strong data protection policies."
