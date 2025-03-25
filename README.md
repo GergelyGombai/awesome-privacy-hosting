@@ -160,9 +160,11 @@ A curated list of hosting providers that offer DDoS protection / no KYC / DMCA-i
 
 **DMCA Ignored:** ❌ No
 
-**DDoS Protection:** ❌ No
+**DDoS Protection:** ✅ Yes
 
 **Stateful DDoS Protection:** ❌ No
+
+**Max DDoS Capacity:** 0.1 Tbps
 
 **KYC Required:** ✅ Yes
 
