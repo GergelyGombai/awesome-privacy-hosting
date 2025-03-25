@@ -131,6 +131,8 @@ providers:
   asn: 23470
   dmca_ignored: false
   kyc_required: true
+  ddos_protection: true
+  max_ddos_capacity_tbps: 0.1
   types:
     - "Dedicated"
   cryptos:
